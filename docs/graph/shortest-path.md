@@ -164,6 +164,7 @@ while (!q.empty()) {
 	}
 }
 ```
+spfa的时间复杂度一般在$O(nm)$,当然稠密图随便卡，考试不建议，能用优化后的dij就用dij,避免spfa被卡
 
 ## Dijkstra 算法
 
